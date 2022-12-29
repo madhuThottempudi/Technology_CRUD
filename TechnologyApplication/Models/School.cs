@@ -22,5 +22,6 @@ namespace TechnologyApplication.Models
         [ForeignKey("Id")]
         public int StudentID { get; set; }
         public Student Student {get; set;}
+       
     }
 }
